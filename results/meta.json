@@ -1,0 +1,40 @@
+{
+  "gpu": "Tesla T4",
+  "gpu_total_memory_bytes": 15637086208,
+  "sm_count": 40,
+  "compute_capability": "7.5",
+  "driver": "580.82.07",
+  "power_limit_W": 70.0,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91900,
+  "python": "3.13.15",
+  "energy_mode": "counter",
+  "idle_power_W": 26.361,
+  "static_allocated_bytes": 13755392,
+  "param_alloc_bytes_predicted": 4187136,
+  "lib_overhead_measured_bytes": 9568256,
+  "lib_overhead_assumed_bytes": 8519680,
+  "random_S": [
+    48,
+    112,
+    352,
+    400
+  ],
+  "random_B": [
+    95,
+    98,
+    167
+  ],
+  "seed": 2026,
+  "settings": {
+    "warmup": 5,
+    "min_reps": 10,
+    "max_reps": 200,
+    "target_time": 1.0,
+    "energy_window": 3.0,
+    "min_energy_iters": 5,
+    "resume": false,
+    "quick": false
+  }
+}

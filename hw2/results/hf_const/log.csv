@@ -1,0 +1,2 @@
+iter,epoch,lr,mom,train_loss,train_acc,test_loss,test_acc,time_s
+300,3.0928,0.1,0.9,1.88108,0.32053,1.89840,0.41830,131.6
